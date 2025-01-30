@@ -1,0 +1,1 @@
+This repository demonstrates the issue of using `ubuntu:latest` in a Dockerfile and provides a solution.  Using `latest` tags means your builds can break unpredictably when the underlying base image is updated, introducing inconsistencies.  This example highlights best practices for specifying a stable, reproducible base image.
